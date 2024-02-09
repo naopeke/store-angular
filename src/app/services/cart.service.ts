@@ -29,6 +29,20 @@ export class CartService {
     console.log(this.cart.value);
   }
 
+  removeQuantity(item: CartItem): void{
+    let itemForRemoval: CartItem | undefined;
+    this.cart.value.items.map((_item) => {
+      if(_item.id === item.id){
+        _item.quantity --;
+
+        if (_item.quantity === 0){
+          itemForRemoval = _item;
+        }
+      }
+      return _item;
+    });
+  }
+
   // header.componentとcart.componentで使うのでserviceにいれる
   getTotal(items: Array<CartItem>):number{
     return items
