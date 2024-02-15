@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
+```
+ng add @angular/material 
+```
+```
+ npm i cors@2.8.5 express@4.18.1 stripe@8.201.0
+```
+stripe checkout  
+https://docs.stripe.com/payments/checkout  
+https://checkout.stripe.dev/  
+https://docs.stripe.com/checkout/quickstart 
+![Captura desde 2024-02-15 12-14-02](https://github.com/naopeke/store-angular/assets/143800388/2934c511-45e2-46fb-96ac-97fbe8f5a09a)  
+
+![Captura desde 2024-02-15 12-18-29](https://github.com/naopeke/store-angular/assets/143800388/6cfbe6a3-7715-4f74-81db-47f815b6b3ff)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
